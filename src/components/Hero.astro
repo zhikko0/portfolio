@@ -1,0 +1,44 @@
+---
+const personalImageAlt = "Developer picture"
+
+import Badge from "./Badge.astro"
+import Linkedin from "./icons/LinkedIn.astro"
+import GitHub from "./icons/GitHub.astro";
+import CV from "./icons/CV.astro"
+import Mail from "./icons/Mail.astro";
+import Social from "./Social.astro"
+
+
+---
+<div class="max-w-xl mb-4">
+	<div class="flex gap-4 mb-4">
+		<img class="rounded-full shadow-lg size-16" src="../public/dev.webp" alt={personalImageAlt}/>
+			<a href="https://www.linkedin.com/in/sebastianvaldesescobar" target="_blank" rel="noopener" class="flex items-center transition md:justify-center md:hover:scale-105">
+				<Badge>Looking for internship</Badge>
+			</a>
+	</div>
+	<h1
+		class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white mb-4">
+		Hey, I'm Sebastián
+	</h1>
+	<p class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
+		<strong>Frontend developer</strong> who builds modern and efficient interfaces. Designed to work well without making too much noise. I turn ideas into clean and smooth web experiences.
+	</p>
+	<nav class="flex flex-wrap gap-4 mt-8">
+		<Social href="http://www.linkedin.com/in/sebastianvaldesescobar">
+			<Linkedin class=" size-4 md:size-6"/>LinkedIn
+		</Social>
+
+		<Social href="https://github.com/zhikko0">
+			<GitHub class=" size-4 md:size-6"/>GitHub
+		</Social>
+
+		<Social href="../public/CV_Sebastian_Valdes.pdf" download>
+			<CV class=" size-4 md:size-6"/>Download CV
+		</Social>
+
+		<Social href="mailto:sebastian.valdesescobar@gmail.com">
+			<Mail class=" size-4 md:size-6"/>Send Email
+		</Social>
+	</nav>	
+</div>

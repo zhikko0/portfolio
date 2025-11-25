@@ -1,19 +1,31 @@
 ---
-const personalImageAlt = "Sebastian Valdes"
+const personalImageAlt = "Sebastian Valdes";
 ---
 
-<article class="flex felx-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
-    <div class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">
+<article
+  class="flex felx-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+  <div
+    class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+  >
+    <p>
+      My name is Sebastian Valdes, but my friends call me Sebbe. I entered the world
+      of <strong>programming</strong> thanks to <strong>Minecraft</strong>, when I began
+      <strong>modifying plugins</strong> that already existed because they didn't do
+      exactly what I needed. Over time I drifted a bit away from technology,
+      but eventually I returned, now focused on <strong>frontend development</strong>,
+      where I found a balance between <strong>logic</strong>, <strong>design</strong>,
+      and the <strong>building of efficient interfaces</strong>.
+    </p>
 
-        <p>
-            Me llamo Sebastian Valdes, pero mis amigos me dicen Sebbe. Entre al mundo de la programacion gracias Minecraft, cuando empece a modificar plugins existentes por que no cumplian exactamente con lo que necesitaba. Con el tiempo me aleje un poco de la tecnologia, pero hace un tiempo retome el camino, ahora enfocado en el desarrollo frontend, donde encontre un equilibro entre logica, diseño y construccion de interfaces eficientes.
-        </p>
 
-        <p>
-            
-
-        </p>
-
-    </div>
-
+    <img
+      width="200"
+      height="200"
+      src="../public/dev.webp"
+      alt={personalImageAlt}
+      class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20"
+      style="object-position: 50% 50%"
+    />
+  </div>
 </article>
