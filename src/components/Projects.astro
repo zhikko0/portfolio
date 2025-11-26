@@ -79,56 +79,16 @@ const TAGS = {
 
 };
 
-const projects = [
-  {//Plock & Gott
-    title: "Plock & Gott - Catering Website",
+const PROJECTS = [
+  {//Portfolio Web - Personal Project
+    title: "Portfolio Web - Personal Project",
     description:
-      "School project developed in a team of three. A static site built with HTML5 and CSS3 to present catering services. It was my first project using these technologies. My contributions were the Products, About, and Footer sections",
-    link: "",
-    github: "",
-    image: "../public/Projects/Plock&Gott.webp",
-    imageAlt: "Plock & Gott - Catering Website",
-    tags: [TAGS.HTML,TAGS.CSS,TAGS.SASS],
-  },
-  {//Quiz-Ankademin
-    title: "Quiz-Ankademin - Web Quiz App",
-    description:
-      "School project built to practice fundamental front-end skills. A small quiz application made with HTML, CSS, and JavaScript. The site loads questions, checks answers, and shows the score in a straightforward interface. Developed as part of my learning process; I handled the implementation of the quiz logic and UI structure.",
-    link: "",
-    github: "",
-    image: "../public/Projects/QuizGame.webp",
-    imageAlt: "Quiz-Ankademin - Web Quiz App",
-    tags: [TAGS.HTML,TAGS.CSS, TAGS.JAVASCRIPT],
-  },
-  {//Tamagotchi
-    title: "Tamagotchi - Virtual Pet Simulation",
-    description:
-      "School project focused on strengthening JavaScript logic and state management. A simple virtual-pet app where the creature's stats (hunger, energy, mood) change over time and react to user actions. Built with HTML, CSS, and JavaScript.",
-    link: "",
-    github: "",
-    image: "../public/Projects/Tamagotchi.webp",
-    imageAlt: "Tamagotchi - Virtual Pet Simulation",
-    tags: [TAGS.HTML,TAGS.CSS, TAGS.JAVASCRIPT],
-  },
-  {//CMS Project - Online Library System
-    title: "CMS Project - Online Library System",
-    description:
-      "School project focused on building a simple library-style CMS. Users can browse books, view details, and manage entries through an admin interface. The frontend was made with HTML, CSS, and JavaScript, while the backend was built with Strapi, connected to an SQL database for storing and managing the library's data.",
-    link: "",
-    github: "",
-    image: "../public/projects/BooksDucks.webp",
-    imageAlt: "CMS Project - Online Library System",
-    tags: [TAGS.STRAPI,TAGS.HTML,TAGS.CSS, TAGS.JAVASCRIPT, TAGS.BOOTSTRAP],
-  },
-  {//React Project - Country explorer
-    title: "React Project - Country explorer",
-    description:
-      "School project developed to practice a more complete front-end workflow. Built with React, using Redux for state management, useEffect for lifecycle handling, and external APIs for dynamic data. The interface is component-driven, with clear separation of logic and UI.",
-    link: "",
-    github: "",
-    image: "../public/projects/Country.webp",
-    imageAlt: "React Project - Country explorer",
-    tags: [TAGS.REACT, TAGS.JAVASCRIPT,TAGS.HTML, TAGS.BOOTSTRAP],
+      "My personal portfolio website built with Astro and Tailwind CSS. It showcases my projects, experience, and skills in a clean and responsive design. The site is optimized for performance and accessibility, reflecting my growth as a developer.",
+    link: "https://sebastianvaldes.dev/",
+    github: "https://github.com/zhikko0/portfolio",
+    image: "/Projects/Portfolio.webp",
+    imageAlt: "Portfolio Web - Personal Project",
+    tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.JAVASCRIPT,],
   },
   {//Hotel booking - Full Stack Project
     title: "Hotel booking - Full Stack Project",
@@ -136,25 +96,65 @@ const projects = [
       "School project I developed on my own. I built a backend with Node.js, Express, and MySQL, creating routes, API endpoints, and database queries. The frontend, built with React, consumes the API and renders the data dynamically.",
     link: "",
     github: "",
-    image: "../public/projects/Hotel.webp",
+    image: "/Projects/Hotel.webp",
     imageAlt: "Hotel booking - Full Stack Project",
     tags: [TAGS.NEXT, TAGS.REACT, TAGS.BOOTSTRAP, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.MYSQL],
   },
-  {//Hotel booking - Full Stack Project
-    title: "Porfolio Web - Personal Project",
+   {//React Project - Country explorer
+    title: "React Project - Country explorer",
     description:
-      "My personal portfolio website built with Astro and Tailwind CSS. It showcases my projects, experience, and skills in a clean and responsive design. The site is optimized for performance and accessibility, reflecting my growth as a developer.",
+      "School project developed to practice a more complete front-end workflow. Built with React, using Redux for state management, useEffect for lifecycle handling, and external APIs for dynamic data. The interface is component-driven, with clear separation of logic and UI.",
+    link: "https://countryexplorer.seval.dev/",
+    github: "https://github.com/zhikko0/CountryExplorer",
+    image: "/Projects/Country.webp",
+    imageAlt: "React Project - Country explorer",
+    tags: [TAGS.REACT, TAGS.JAVASCRIPT,TAGS.HTML, TAGS.BOOTSTRAP],
+  },
+  {//CMS Project - Online Library System
+    title: "CMS Project - Online Library System",
+    description:
+      "School project focused on building a simple library-style CMS. Users can browse books, view details, and manage entries through an admin interface. The frontend was made with HTML, CSS, and JavaScript, while the backend was built with Strapi, connected to an SQL database for storing and managing the library's data.",
     link: "",
     github: "",
-    image: "../public/projects/Porfolio.webp",
-    imageAlt: "Portfolio Web - Personal Project",
-    tags: [TAGS.ASTRO, TAGS.TAILWIND, TAGS.CSS, TAGS.JAVASCRIPT,],
+    image: "/Projects/BooksDucks.webp",
+    imageAlt: "CMS Project - Online Library System",
+    tags: [TAGS.STRAPI,TAGS.HTML,TAGS.CSS, TAGS.JAVASCRIPT, TAGS.BOOTSTRAP],
+  },
+ {//Tamagotchi
+    title: "Tamagotchi - Virtual Pet Simulation",
+    description:
+      "School project focused on strengthening JavaScript logic and state management. A simple virtual-pet app where the creature's stats (hunger, energy, mood) change over time and react to user actions. Built with HTML, CSS, and JavaScript.",
+    link: "https://tamagotchi.seval.dev/",
+    github: "https://github.com/zhikko0/Tamagotchi",
+    image: "/Projects/Tamagotchi.webp",
+    imageAlt: "Tamagotchi - Virtual Pet Simulation",
+    tags: [TAGS.HTML,TAGS.CSS, TAGS.JAVASCRIPT],
+  },
+   {//Quiz-Ankademin
+    title: "Quiz-Ankademin - Web Quiz App",
+    description:
+      "School project built to practice fundamental front-end skills. A small quiz application made with HTML, CSS, and JavaScript. The site loads questions, checks answers, and shows the score in a straightforward interface. Developed as part of my learning process; I handled the implementation of the quiz logic and UI structure.",
+    link: "http://quizankademin.seval.dev/",
+    github: "https://github.com/zhikko0/QuizAnkademin",
+    image: "/Projects/QuizGame.webp",
+    imageAlt: "Quiz-Ankademin - Web Quiz App",
+    tags: [TAGS.HTML,TAGS.CSS, TAGS.JAVASCRIPT],
+  },
+  {//Plock & Gott
+    title: "Plock & Gott - Catering Website",
+    description:
+      "School project developed in a team of three. A static site built with HTML5 and CSS3 to present catering services. It was my first project using these technologies. My contributions were the Products, About, and Footer sections",
+    link: "https://plockandgott.seval.dev/",
+    github: "https://github.com/zhikko0/PlockOchGott",
+    image: "/Projects/PlockAndGott.webp",
+    imageAlt: "Plock & Gott - Catering Website",
+    tags: [TAGS.HTML,TAGS.CSS,TAGS.SASS],
   },
 ];
 ---
 
 {
-  projects.map(({ title, description, link, github, image, imageAlt, tags }) => (
+  PROJECTS.map(({ title, description, link, github, image, imageAlt, tags }) => (
     <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0 mb-8">
   <div class="w-full md:w-1/2">
     <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
