@@ -28,7 +28,7 @@ const TAGS = {
   },
   NEXT: {
     name: "Next.js",
-    class: "bg-black text-white",
+    class: "",
     icon: NextJS,
   },
   TAILWIND: {
@@ -171,7 +171,7 @@ const PROJECTS = [
           {tags.map((tag) => (
             <li>
               <span
-                class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+                class={`flex gap-x-2 rounded-full text-gray-800 dark:text-white text-xs ${tag.class} py-1 px-2 `}
               >
                 <tag.icon class="size-4" />
                 {tag.name}
